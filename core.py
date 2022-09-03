@@ -20,6 +20,7 @@ def hello_world():
                 color: white;
                 margin-bottom: 15px;\">{s}
         </div>
+        <img src=\"https://t.ctcdn.com.br/IFvswOVy57rDAEBc5_ox062Me0c=/400x400/smart/filters:format(webp)/i490763.jpeg\" alt="Minha Figura">
     """
 
     # return 'Hello from Flask, by Insper DS! - ' + str(now)
