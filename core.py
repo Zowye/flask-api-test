@@ -12,6 +12,7 @@ def hello_world():
     now = datetime.now()
 
     s = "<h2>Wrong!</h2><b>Ops, Second argument is not a fucken float!</b></br>" + b
+
     div_text = f"""
         <div style=
                 \"padding: 20px;
@@ -20,10 +21,10 @@ def hello_world():
                 margin-bottom: 15px;\">{s}
         </div>
     """
-    # return 'Hello from Flask, by Insper DS! - ' + str(now)
-    return div_text
+    return 'Hello from Flask, by Insper DS! - ' + str(now)
+    # return div_text
 
-    
+
 @app.route('/core')
 def core():
     now = datetime.now()
