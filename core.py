@@ -11,7 +11,7 @@ app = Flask(__name__)
 def hello_world():
     now = datetime.now()
 
-    s = "<h2>Wrong!</h2><b>Hello Caio</b></br>"
+    s = "<h2>Deu certo!</h2><b>Hello Caio</b></br>"
 
     div_text = f"""
         <div style=
