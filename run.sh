@@ -1,2 +1,2 @@
-q:qexport FLASK_APP=core
+export FLASK_APP=core
 flask run --host=0.0.0.0 --port 5005
